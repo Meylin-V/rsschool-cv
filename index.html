@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <!--нормализация css modern normalize-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" rel="stylesheet">
+    <!--подключение css-->
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="container display-flex nav">
+                <li class="nav-button"><a href="#main" class="link-nav">Main Information</a></li>
+                <li class="nav-button"><a href="#skills" class="link-nav">Skills</a></li>
+                <li class="nav-button"><a href="#education" class="link-nav">Education</a></li>
+                <li class="nav-button"><a href="#code" class="link-nav">Code examples</a></li>
+                <li class="nav-button"><a href="#experience" class="link-nav">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="main" class="container">
+            <h1 class="section-header">Maksymenko Nataliia</h1>
+            <h2>Junior Front-End Developer</h2>
+            <ul class="display-flex">
+                <li>
+                    <p class="contacs">0930749411</p>
+                    <p class="contacs">maksymenko.nataliia@gmail.com</p>
+                    <p class="contacs">Kyiv, Ukraine</p>
+                </li>
+                <li><img src="https://ukv.org.ua//images/stories/Classic/2018-2019/Maksimenko.jpg" alt="Photo"></li>
+            </ul>
+        </section>
+        <section id="skills" class="container">
+            <h1 class="section-header">Skills</h1>
+            <div class="display-flex">
+                <div>
+                    <h2 class="section-header">Hard Skills</h2>
+                    <ul class="text-left">
+                        <li>HTML&CSS</li>
+                        <li>CSS preprocessor SASS</li>
+                        <li>JavaScript</li>
+                        <li>developer tools</li>
+                        <li>version control</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="section-header">Soft Skills</h2>
+                    <ul class="text-left">
+                        <li>English: Intermediate</li>
+                        <li>good communication</li>
+                        <li>teamwork</li>
+                        <li>willingness to learn</li>
+                        <li>problem-solving</li>
+                    </ul>
+                </div>
+            </div>   
+        </section>
+        <section id="education" class="container">
+            <h1 class="section-header">Education</h1>
+            <ul>
+                <li>Student of “rs school”</li>
+                <li>Free listener of the project “Kottans.org”</li>
+                <li>Frontend course “prog kiev.ua”</li>
+                <li>Chemical Technology - National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"</li>
+            </ul>
+        </section>
+        <section id="experience" class="container">
+            <h1 class="section-header">Experience</h1>
+            <div class="display-flex">
+                <ul>
+                    <li>Chemist Analist (2014-2015)</li>
+                    <li>Pharmaceutical company «Darnitsa»</li>
+                    <li>
+                        <p>in-line analysis of drugs</p>
+                        <p>records management</p>
+                    </li>
+                </ul>
+            
+                <ul>
+                    <li>Chemist R&D (2015-2016) => Senior Chemist R&D (2016-…)</li>
+                    <li>Ltd «Pharmex Group»</li>
+                    <li>
+                        <p>development of quality control methods for drugs</p>
+                        <p>preparation of documents for registration of drugs</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="code" class="container">
+            <h1 class="section-header">Сode examples</h1>
+            <pre><code>
+```
+const func = (num) => {  
+if (num > 0) {  
+return num - 1;  
+}
+return num + 1;  
+};  
+```
+            </code></pre>
+        </section>
+    </main>
+    <footer>
+        <p class="container">Kyiv, 2020</p>
+    </footer>
+</body>
+</html>
